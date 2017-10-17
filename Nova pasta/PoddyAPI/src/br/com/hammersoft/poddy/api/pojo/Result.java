@@ -59,16 +59,16 @@ public class Result {
 	private Double trackPrice;
 	@SerializedName("trackRentalPrice")
 	@Expose
-	private Integer trackRentalPrice;
+	private Double trackRentalPrice;
 	@SerializedName("collectionHdPrice")
 	@Expose
-	private Integer collectionHdPrice;
+	private Double collectionHdPrice;
 	@SerializedName("trackHdPrice")
 	@Expose
-	private Integer trackHdPrice;
+	private Double trackHdPrice;
 	@SerializedName("trackHdRentalPrice")
 	@Expose
-	private Integer trackHdRentalPrice;
+	private Double trackHdRentalPrice;
 	@SerializedName("releaseDate")
 	@Expose
 	private String releaseDate;
@@ -239,35 +239,35 @@ public class Result {
 		this.trackPrice = trackPrice;
 	}
 
-	public Integer getTrackRentalPrice() {
+	public Double getTrackRentalPrice() {
 		return trackRentalPrice;
 	}
 
-	public void setTrackRentalPrice(Integer trackRentalPrice) {
+	public void setTrackRentalPrice(Double trackRentalPrice) {
 		this.trackRentalPrice = trackRentalPrice;
 	}
 
-	public Integer getCollectionHdPrice() {
+	public Double getCollectionHdPrice() {
 		return collectionHdPrice;
 	}
 
-	public void setCollectionHdPrice(Integer collectionHdPrice) {
+	public void setCollectionHdPrice(Double collectionHdPrice) {
 		this.collectionHdPrice = collectionHdPrice;
 	}
 
-	public Integer getTrackHdPrice() {
+	public Double getTrackHdPrice() {
 		return trackHdPrice;
 	}
 
-	public void setTrackHdPrice(Integer trackHdPrice) {
+	public void setTrackHdPrice(Double trackHdPrice) {
 		this.trackHdPrice = trackHdPrice;
 	}
 
-	public Integer getTrackHdRentalPrice() {
+	public Double getTrackHdRentalPrice() {
 		return trackHdRentalPrice;
 	}
 
-	public void setTrackHdRentalPrice(Integer trackHdRentalPrice) {
+	public void setTrackHdRentalPrice(Double trackHdRentalPrice) {
 		this.trackHdRentalPrice = trackHdRentalPrice;
 	}
 
